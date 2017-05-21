@@ -398,11 +398,7 @@ extern "C" void* ThreadStats(void*) {
 }
 
 static const string mainnet_seeds[] = {"192.69.216.120", ""};
-/*static const string testnet_seeds[] = {"testnet-seed.alexykot.me",
-                                       "testnet-seed.utabit.petertodd.org",
-                                       "testnet-seed.bluematt.me",
-                                       "testnet-seed.utabit.schildbach.de",
-                                       ""};*/
+static const string testnet_seeds[] = {"192.69.216.120", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
